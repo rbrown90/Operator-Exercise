@@ -6,14 +6,16 @@
         {
             var a = 17;
             var b = 4;
+            var sum = a + b;
             var quotient = a / b;
             var remainder = a % b;
+            var product = a * b;
+            var difference = a - b;
 
-            Console.WriteLine(a + "/" + b + " is" + quotient + "remainder" + remainder);
-
-            if (a == 17 && b == 4)
-
-                Console.WriteLine(a + "/" + b + " is" + quotient + "remainder" + remainder);
+            Console.WriteLine($"{a} / {b} is  {quotient} remainder {remainder}");
+            Console.WriteLine($"The Sum is {sum}.");
+            Console.WriteLine($"The Product is {product}.");
+            Console.WriteLine($"The Difference is {difference}.");
 
             Console.WriteLine("What is the radius of your circle");
             var userInput = Console.ReadLine();
